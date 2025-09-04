@@ -22,7 +22,7 @@ export default function Carousel() {
   }, []);
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto my-6 overflow-hidden rounded bg-purple-300">
+    <div className="relative w-full max-w-4xl mx-auto my-6 overflow-hidden rounded bg-white">
       <div className="w-full">
         <img
           src={images[current]}
@@ -34,13 +34,13 @@ export default function Carousel() {
       {/* Optional previous/next buttons */}
       <button
         onClick={() => setCurrent((prev) => (prev - 1 + images.length) % images.length)}
-        className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow"
+        className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-purple-200 p-2 rounded-full shadow"
       >
         &#10094;
       </button>
       <button
         onClick={() => setCurrent((prev) => (prev + 1) % images.length)}
-        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-white p-2 rounded-full shadow"
+        className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-purple-200 p-2 rounded-full shadow"
       >
         &#10095;
       </button>
