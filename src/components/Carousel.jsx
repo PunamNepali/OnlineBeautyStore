@@ -7,6 +7,9 @@ const images = [
   "/images/Skincare/2 The Ordinary Hair Care Line.jpg",
   "/images/Skincare/2 The Ordinary body care.jpg",
   "/images/Skincare/1 GLYNT nutri shampoo.jpg",
+  "/images/Skincare/1 GLYNT color protect shampoo.jpg",
+  "/images/Skincare/1 GLYNT color protect conditioner.jpg",
+
 ];
 
 export default function Carousel() {
@@ -27,7 +30,7 @@ export default function Carousel() {
         <img
           src={images[current]}
           alt={`Slide ${current + 1}`}
-          className="w-full h-64 object-contain" // object-contain shows full image
+          className="w-full h-80 object-cover" // object-contain shows full image
         />
       </div>
 
