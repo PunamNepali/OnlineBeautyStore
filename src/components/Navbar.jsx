@@ -66,7 +66,7 @@ export default function Navbar() {
           <ul className="flex flex-col gap-4 p-4">
             {currentUser ? (
               <>
-                <li>Hello, {currentUser.username}</li>
+                <li>Hi, {currentUser.username}</li>
                 <li>
                   <button
                     onClick={() => {

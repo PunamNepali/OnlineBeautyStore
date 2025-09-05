@@ -7,8 +7,6 @@ const images = [
   "/images/Skincare/2 The Ordinary Hair Care Line.jpg",
   "/images/Skincare/2 The Ordinary body care.jpg",
   "/images/Skincare/1 GLYNT nutri shampoo.jpg",
-  "/images/Skincare/1 GLYNT color protect shampoo.jpg",
-  "/images/Skincare/1 GLYNT color protect conditioner.jpg",
 
 ];
 
