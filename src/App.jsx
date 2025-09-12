@@ -12,6 +12,7 @@ import PrivacyPolicy from "./pages/PrivacyPolicy";
 import FAQ from "./pages/FAQ";
 import Cart from "./pages/Cart";
 import Wishlist from "./pages/Wishlist";
+import SearchPage from "./pages/SearchPage";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/faq" element={<FAQ />} />
         <Route path="/cart" element={<Cart />} />
         <Route path="/wishlist" element={<Wishlist />} />
+        <Route path="/search" element={<SearchPage />} />
         {/* Add more routes here */}
       </Routes>
       <Footer />
